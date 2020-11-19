@@ -85,12 +85,13 @@
     background: #003;
     padding-top: 8em;
     color: #fff;
-    font-family: 'Raleway', sans-serif;
     width: 80em;
     height: 50em;
     position: absolute;
     left: 100px;
     border: 40em;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em;
   }
   
   h1 {
@@ -103,6 +104,7 @@
     font-size: 2.78em;
     text-transform: uppercase;
     font-weight: 900;
+    
   }
   
   h2 {
@@ -150,12 +152,21 @@
 #pa
 {
   background: rgb(49, 12, 71);
+  width: 89em;
+  height: 60em;
+  transform: skewX(-4);
+  transform-origin: bottom right;
  
 }
 
   h1::first-letter {
     color: #ffffff;
     font-size:5em;
-    font-family: cursive;
+    font-family: 'Sacramento', cursive;
+  }
+  a:hover
+  {
+    font-size: 2em;
+    color: yellow;
   }
   
